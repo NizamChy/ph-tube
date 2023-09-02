@@ -19,15 +19,18 @@
       <!-- navbar goes here -->
       <div class="navbar bg-base-100 max-w-screen-2xl mx-auto mt-1 border-b-2">
         <div class="flex-1">
-          <a class="btn btn-ghost normal-case text-xl"
+          <a href="index.html" class="btn btn-ghost normal-case text-xl"
             ><img src="./images/Logo.png" alt=""
           /></a>
-          <button class="btn mx-auto normal-case">Sort by view</button>
+          <button class="btn mx-auto normal-case" id="sort-by-view">
+            Sort by view
+          </button>
         </div>
         <div class="flex-none">
           <ul class="menu menu-horizontal px-1">
             <li>
               <a
+                href="blog.html"
                 class="btn btn-secondary bg-[#FF1F3D;] text-xl mr-4 normal-case"
                 >Blog</a
               >
@@ -41,10 +44,7 @@
     <!-- tab section goes here -->
     <section>
       <div class="tab-container max-w-screen-2xl mx-auto">
-        <div
-          class="tabs justify-center gap-4 mt-2"
-          id="tab-container"
-        >
+        <div class="tabs justify-center gap-4 mt-2" id="tab-container">
           <!-- <a class="tab btn normal-case text-[#252525B2;]">All</a> 
           <a class="tab btn normal-case tab-active text-[#252525B2;]">Music</a> 
           <a class="tab normal-case btn text-[#252525B2;]">Comedy</a>

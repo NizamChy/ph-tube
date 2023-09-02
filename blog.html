@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <section>
+      <!-- navbar goes here -->
+      <div class="navbar bg-base-100 max-w-screen-2xl mx-auto mt-1 border-b-2">
+        <div class="flex-1">
+          <a href="index.html" class="btn btn-ghost normal-case text-xl"
+            ><img src="./images/Logo.png" alt=""
+          /></a>
+        </div>
+        <div class="flex-none">
+          <ul class="menu menu-horizontal px-1">
+            <li>
+              <a
+                href="blog.html"
+                class="btn btn-secondary bg-[#FF1F3D;] text-xl mr-4 normal-case"
+                >Blog</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- navbar ends here -->
+    </section>
+
+    <!-- blog questons goes here -->
+    <section class="max-w-screen-2xl mx-auto">
+      <h1 class="text-center text-3xl mt-4 mb-5 underline decoration-wavy">
+        Blog Questions and Answers
+      </h1>
+      <div class="text-xl w-1/2 mx-auto indent-8">
+        <ol>
+          <li>
+            <h2>Q1: Discuss the scope of var, let, and const.</h2>
+            <p class="mb-4 text-base">
+              <span class="underline decoration-pink-500">Answer:</span> var,
+              let, and const:
+              <br />
+              var: Function scope. Can be re-declared and updated. <br />
+              let: Block scope. Can be re-declared but not updated. <br />
+              const: Block scope. Cannot be re-declared or updated.
+            </p>
+            <hr />
+          </li>
+          <li>
+            <h2>Q2: Tell us the use cases of null and undefined.</h2>
+            <p class="mb-4 text-base">
+              <span class="underline decoration-pink-500">Answer:</span> null:
+              Used to represent the intentional absence of a value or as a
+              placeholder. <br />
+
+              undefined: Typically indicates the absence of a value that hasn't
+              been assigned or provided yet. It's also used for default function
+              parameters and when accessing non-existent object properties.
+            </p>
+            <hr />
+          </li>
+          <li>
+            <h2>Q3: What do you mean by REST API?</h2>
+            <p class="mb-4 text-base">
+              <span class="underline decoration-pink-500">Answer:</span> REST
+              API stands for Representational State Transfer Application
+              Programming Interface. It's a set of rules and conventions for
+              building and interacting with web services. RESTful APIs use
+              standard HTTP methods like GET, POST, PUT, and DELETE to perform
+              operations on resources, which are represented as URLs.
+              <br />
+
+              A REST API allows applications to communicate with each other over
+              the internet by making requests to specific URLs and receiving
+              data in a structured format, typically in JSON or XML. It's a
+              widely used approach for building web services and is known for
+              its simplicity and scalability.
+            </p>
+            <hr />
+          </li>
+        </ol>
+      </div>
+    </section>
+  </body>
+</html>
